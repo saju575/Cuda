@@ -1,0 +1,133 @@
+
+@media only screen and (max-width:1200px){
+    header{
+        height: 70vh;
+    }
+    .row{
+        margin: 0 1.4rem;
+    }
+    .hero-text-box{
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width:1024px){
+    
+  
+    .main-nav{
+        display: none;
+    }
+    .mobile-menu{
+        display: block;
+    }
+    html{
+        font-size: 59%;
+    }
+    .client-photo{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .client-review{
+        width: 100%;
+        overflow: none;
+        text-align: center;
+    }
+    .client-review p{
+        
+        font-size: 1.8rem;
+    }
+    .testmonial-section .col:nth-child(3),
+    .testmonial-section .col:nth-child(4){
+        margin-top: 5rem;
+    }
+    .contact-section form{
+        
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+@media only screen and (max-width:980px){
+    .span_1_of_4{
+        width: 49.2%;
+    }
+    .span_1_of_4:nth-child(3){
+        margin-left: 0;
+    }
+    html{
+        font-size: 62.5%;
+    }
+    .social-link{
+        margin-top: 2.8rem;
+    }
+
+}
+@media only screen and (max-width:768px){
+    header{
+        height: 65vh;
+    }
+    .footer-section li{
+        
+        margin: 0 1.5rem;
+        
+    }
+    .footer-section li a{
+       
+        font-size: 1.6rem;
+    }
+    .little-descripton{
+        
+        width: 90%;
+        margin-left: 5%;
+       
+    }
+    h3{
+        font-size: 1.7rem;
+    }
+    h2{
+        font-size: 3rem;
+    }
+    h1{
+        font-size: 3.2rem;
+    }
+    .role{
+        font-size: 1.3rem;
+    }
+    .client-review p{
+        
+        font-size: 1.6rem;
+    }
+}
+@media only screen and (max-width:480px){
+    header{
+        height: 85vh;
+    }
+    .span_1_of_4{
+        width: 100%;
+    }
+    h2{
+        font-size: 2rem;
+        letter-spacing: 0rem;
+        line-height: 1.5em;
+    }
+    .little-descripton{
+        font-size: 1.7rem;
+    }
+}
+@media only screen and (max-width:330px){
+    header{
+        height: 120vh;
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (max-height:380px){
+    header{
+        height: 125vh
+    }
+    h1{
+        font-size:2.2rem ;
+    }
+}
